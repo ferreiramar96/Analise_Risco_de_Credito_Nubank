@@ -14,7 +14,7 @@ Após realizar as análises e aplicar algumas transformações aos dados, comece
 Agora com os dados corretos, comecei com nossos modelos de machine learning e os que utilizei foram: Regressão Logística, Random Forest, Árvore de Decisão, KNN, SVM, Naive Bayes, Gradiente Descendente, XGBoost e LightGBM. Após o treinamento dos modelos é a hora de avaliarmos. A métrica escolhida foi o *Recall*, escolhi os 3 algoritmos que obtiveram **os melhores resultados e foram: Regressão Logística(65.67%), LightGBM(65.41%) e Random Forest(64.65%)**. Sendo o algoritmo de pior desempenho o Naive Bayes(34.67%). É importante ressaltar também que fiz o treinamento em 2 conjunto de dados com os dados de dimensionalidades originais e com a redução, e os originais obtiveram um melhor resultado como podem ver a seguir:
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ferreiramar96/Analise_Risco_de_Credito_Nubank/main/Imagens/resultado_modelospng.png" alt="imagem maneira relacionada ao projeto"height=300px >
+  <img src="https://raw.githubusercontent.com/ferreiramar96/Analise_Risco_de_Credito_Nubank/main/Imagens/resultado_modelospng.png" alt="imagem maneira relacionada ao projeto"height=320px >
 </p>
 
 Com tudo pronto, fui para a avaliação de todos os modelos e a métrica escolhida foi o *MAPE (mean absolute percentage error)*, e o algoritmo que obteve um melhor resultado com nossos dados de teste foi o ARIMA com 2.16% de erro médio.
