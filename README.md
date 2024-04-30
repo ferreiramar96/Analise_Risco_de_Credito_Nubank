@@ -29,18 +29,19 @@ A seguir, alguns pontos do projeto:
 * Análise exploratória para entender os dados
 * Modelagem dos dados
 * Feature Engineering
-* Business Understanding
-* Transformações da Série Temporal para estacionária
+* Codificação de Variáveis
+* Escalonamento dos dados
 * Treinamento de vários algoritmos
-* Reversão das transformações na ST
+* Tunagem de Hiperparâmetros
+* Testes Estatísticos
 * Avaliação dos resultados e conclusão
 
 Ao longo de todo o projeto, cada célula de código está explicada para uma fácil compreensão, acompanhado de um belo storytelling. Vocês também encontrarão algumas análises estatísticas, histogramas, matriz de correlação e toda a parte de pré-processamento dos dados, desde as análises até a avaliação dos modelos.
 
-Neste projeto foi utilizado: Storytelling, Estatística, Série Temporal, Python, Machine Learning e Modelagem de Dados e Matemática.
+Neste projeto foi utilizado: Storytelling, Estatística, Série Temporal, Python, Machine Learning e Modelagem de Dados.
 
 
-[Link para o projeto completo](https://github.com/ferreiramar96/Previsao_Demanda_Vinhos_Time_Series/blob/main/Previs%C3%A3o_de_Demanda_Vinhos_(S%C3%A9rie_Temporal).ipynb)
+[Link para o projeto completo](https://github.com/ferreiramar96/Analise_Risco_de_Credito_Nubank/blob/main/Avalia%C3%A7%C3%A3o_de_Risco_Cr%C3%A9dito_Nubank.ipynb)
 
 **Links para me acharem:**
 * [Artigo desse projeto no Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7141405755013869568/)
