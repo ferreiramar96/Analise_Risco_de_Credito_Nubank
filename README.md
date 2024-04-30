@@ -4,10 +4,10 @@
   <img src="https://raw.githubusercontent.com/ferreiramar96/Analise_Risco_de_Credito_Nubank/main/Imagens/capa.png" alt="imagem maneira relacionada ao projeto"height=420px >
 </p>
 
-## Previsão de Demanda - Vinhos (*Time Series Forecasting*)
-Nesse projeto utilizei os dados de uma industria de vinhos, no qual nosso objetivo seria criar um modelo preditivo para prever as vendas, e com um belo storytelling ao longo de todo nosso projeto, com fatos sobre os vinhos e informações sobre o mundo dos négocios.
+## Análise de Risco de Crédito - Nubank
+Nesse projeto utilizei os dados de uma competição realizada pela Startup Nubank, no qual o objetivo seria criar um modelo de Machine Learning que forneça a probabilidade de um cliente se tornar inadimplente, esperando que o modelo seja capaz de minimizar as perdas financeiras do Nubank, porém minimizando também os falsos positivos. Ao longo de todo o projeto é realizado um storytelling com detalhes ricos e uma bela ilustração.
 
-Realizei uma análise completa rica em informações, tando de forma a análisar a qualidade de nossos dados, quanto em responder peguntas valiosas de negócios como: Quais os vinhos mais vendidos e compara-los com quais trazem mais receita, para dessa forma a empresa pensar em alguma campanha de marketing e direciona-la. Esta é apenas uma de muitas perguntas que respondi ao longo desde projeto. 
+Realizei uma análise exploratória completa, tanto para análisar a qualidade de nossos dados, quanto para entender mais afundo as questões do negócio e poder agregar mais valor. E também pude verificar algumas hipóteses, tais como: A maioria dos clientes possuiam facebook, se a região que mais possuía cliente era a Sudeste e entre outras... E respondi todas essa hipóteses utilizando os dados e gráficos para o melhor entendimento.  
 
 Logo de cara assim que plotei um gráfico com os dados das vendas ao longo do tempo, percebi que estávamos lidando com uma *Série Temporal* pois havia tendência e sazonalidade, e para utilizarmos nossos algoritmos para fazer a previsão, é preciso que nossa Série Temporal seja estacionária e então realizei o teste ADF. Após o teste o resultado nos indica que nossa série não é estacionária, e então precisei fazer algumas transformações para torna-la estacionária, como: logaritma, subtração da média móvel e diferenciação.
 
